@@ -43,6 +43,10 @@ class NumberTriviaPage extends StatelessWidget {
                     return MessageDisplay(
                       message: state.message,
                     );
+                  } else {
+                    return MessageDisplay(
+                      message: "State don\'t match...",
+                    );
                   }
                 },
               ),
